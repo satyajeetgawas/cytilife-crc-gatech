@@ -5,7 +5,8 @@ var EstimoteSticker = require('./estimote-sticker');
 		
 EstimoteSticker.on('discover', function(estimoteSticker) {
   	
-		console.log(estimoteSticker);
+		// console.log(estimoteSticker);
+		console.log(estimoteSticker.id);
 		
 		
 
@@ -15,7 +16,7 @@ EstimoteSticker.on('discover', function(estimoteSticker) {
 
 
 
-var values =  {
+var values =  [{
 				id:estimoteSticker.id,
 				uuid:estimoteSticker.uuid,
 				major:estimoteSticker.major,
@@ -36,15 +37,15 @@ var values =  {
 				rssi:estimoteSticker.rssi,
 				log_time:Date.now(),
 				mac_id:macAddr
-			};
+			}];
 
 				var sa = require('superagent');
 				sa.post('http://198.211.106.52/crc/saveEstimotedata')
   				.send(values)
   				.end(function(err,
   						 res) {
-    					console.log(err);
-    					console.log(res);
+    					if (err) console.log(err);
+    					//console.log(res);
   				});
 
 
