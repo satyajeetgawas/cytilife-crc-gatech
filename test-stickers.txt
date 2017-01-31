@@ -1,0 +1,12 @@
+SELECT count(*) FROM estimote.estimote_stickers where id='a500eed6172bcb5c';
+SELECT count(*) FROM estimote.estimote_stickers where id='650eaf6b2f01c0c1';
+SELECT count(*) FROM estimote.estimote_stickers where id='480e4a2de64bdc9a';
+SELECT count(*) FROM estimote.estimote_stickers where id='38c29caa60607b1a';
+SELECT count(*) FROM estimote.estimote_stickers where id='99b183be33d3fec5';
+SELECT count(*) FROM estimote.estimote_stickers where id='6d5fb77865bcda8';
+SELECT count(*) FROM estimote.estimote_stickers where id='a2860ae240afbebb';
+SELECT count(*) FROM estimote.estimote_stickers where id='a0bc79da12aead94';
+SELECT count(*) FROM estimote.estimote_stickers where id='afec12bc2f0561c3';
+SELECT count(*) FROM estimote.estimote_stickers where id='e886abf2d1a64368';
+
+select distinct id from estimote.estimote_stickers where log_time>'1485729000000';

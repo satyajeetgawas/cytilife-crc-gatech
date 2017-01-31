@@ -1,0 +1,11 @@
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:91:c0:32';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:0b:78:6d';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:d9:2e:a5';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:d9:2e:a5';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:d9:2e:a5';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:d7:74:06';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:7b:9b:db';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:a2:a1:b7';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:05:65:09';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:f9:3f:d8';
+SELECT count(*) FROM estimote.estimote_stickers where mac_id='b8:27:eb:ce:1c:52';
